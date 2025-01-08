@@ -8,7 +8,7 @@ import (
 
 // function to echo hello world
 func echoHelloWorld(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Hello PNT")
+	fmt.Fprintf(w, "Hello PNT Class")
 }
 
 func main() {
